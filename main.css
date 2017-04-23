@@ -2,15 +2,17 @@ body{
   margin: 0;
   background: linear-gradient( black, #9DFB2B);
   background-repeat: no-repeat;
-  height:800PX;
+  height:100%;
+
 }
 @font-face {
-  font-family: League Script;
+  font-family: Indie Flower;
 
 }
 header{
   margin: 0;
-  font-family: League Script;
+  font-family: Indie Flower;
+  font-size: 35px;
 }
 
 header h1{
@@ -19,6 +21,18 @@ header h1{
   text-align: center;
 
   }
+  .list-container{
+    padding-left: 38%;
+    padding-bottom: 100%;
+
+  }
+  .picture-container{
+    padding-left:20%;
+
+  }
+  div ul li{
+    color: #9DFB2B;
+  }
   nav ul{
     text-align: center;
     margin:0;
@@ -26,11 +40,11 @@ header h1{
 
   }
   nav ul li{
-    text-align: center;
     display: inline;
     list-style-type: none;
     padding:0;
     margin: 0;
+    color: #9DFB2B;
 
 
   }
@@ -41,16 +55,12 @@ img{
     margin: auto;
     width: 40%;
 }
-ul li {
-  text-align: center;
-  padding: 0;
-}
+
 a {
-  font-size: 16px;
+  font-size: 20px;
   display: inline-block;
   margin-bottom: 8px;
   margin-right: 8px;
-  padding: 0;
 
 }
 

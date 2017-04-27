@@ -30,6 +30,13 @@ header h1{
     padding-left:20%;
 
   }
+  .table-hover{
+
+  }
+  .jumbotron{
+    background: linear-gradient( black, #9DFB2B);
+    text-decoration-color:purple;
+  }
   div ul li{
     color: #9DFB2B;
   }
@@ -42,7 +49,8 @@ header h1{
   nav ul li{
     display: inline;
     list-style-type: none;
-    
+    text-align: center;
+    padding-left: 0;
 
 
   }

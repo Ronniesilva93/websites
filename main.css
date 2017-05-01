@@ -28,14 +28,9 @@ header h1{
 
   }
 
-  }
-  .table-hover{
-
-  }
-  .jumbotron{
-    background: linear-gradient( black, #9DFB2B);
-    text-decoration-color:purple;
-  }
+.col-lg-4{
+  padding-top: 30px;
+}
   div ul li{
     color: #9DFB2B;
   }
@@ -53,32 +48,7 @@ header h1{
 
 
   }
-  img{
-      height:auto;
-      display: block;
-      margin: auto;
-      width: 40%;
-      padding-bottom: 35px;
-  }
 
-
-  a:nth-of-type(2n) {
-    margin-right: 0;
-  }
-
-  @media screen and (min-width: 50em) {
-    a {
-      width: calc(25% - 6px);
-    }
-
-    a:nth-of-type(2n) {
-      margin-right: 8px;
-    }
-
-    a:nth-of-type(4n) {
-      margin-right: 0;
-    }
-  }
 
 footer{
     text-align: right;
